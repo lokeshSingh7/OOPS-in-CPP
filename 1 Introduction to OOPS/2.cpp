@@ -12,7 +12,7 @@ class Rectangle{
         return length*breadth;
     }
 
-    int parameter(){
+    int Perimeter(){
         return 2*(length+breadth);
     }
 
@@ -33,7 +33,7 @@ int main(){
     ptr->breadth = 20;
 
     cout<<"Area is "<<r.area();
-    cout<<"\nParameter is "<<ptr->parameter();
+    cout<<"\nPerimeter is "<<ptr->Perimeter();
 
 
 

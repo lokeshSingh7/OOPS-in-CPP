@@ -14,7 +14,7 @@ class Rectangle{
         return length*breadth;
     }
 
-    int parameter(){
+    int perimeter(){
         return 2*(length+breadth);
     }
 

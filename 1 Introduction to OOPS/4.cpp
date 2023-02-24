@@ -1,5 +1,3 @@
-
-
 #include<bits/stdc++.h>
 using namespace std;
  
@@ -15,11 +13,11 @@ class Rectangle{
     // get      --  Mutator
 
     void setLength(int l){
-        length = (length>=0) ? l : 0;
+        length = (l>=0) ? l : 0;
     }
 
     void setBreadth(int b){
-        breadth = (breadth>=0) ? b : 0;
+        breadth = (b>=0) ? b : 0;
     }
 
     int getLength(){
